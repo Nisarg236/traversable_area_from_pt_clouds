@@ -1,0 +1,12 @@
+<launch>
+    <param name="path_to_pcd" type="string" value="/home/otto-testing/catkin_ws/src/window_to_work.pcd" />
+    <param name="path_to_pose" type="string" value="/home/otto-testing/zaragoza/6D_pose.pcd" />
+
+    <param name="small_scale" type="double" value="0.2" />
+    <param name="large_scale" type="double" value="2" />
+    <param name="thresh" type="double" value="0.25" />
+    <param name="seg_radius" type="double" value="0.2" />
+    <node pkg="tf" type="static_transform_publisher" name="kinect_base_link5" args="0 0 0 0 0 0 grid_map map 50"/>
+    <node type="rviz" name="rviz" pkg="rviz" />
+    <node name="node_name" pkg="pcd_to_2d" type="pcd_to_2d" output="screen"/>
+</launch>
