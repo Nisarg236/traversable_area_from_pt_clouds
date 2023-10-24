@@ -1,6 +1,6 @@
 <h1> Using the pcdWindows package </h1>
 <h3> Point Cloud after removal of points > certain height. </h3>
-![image](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/460162bc-bab1-4a86-b34c-80bb64248d10)
+![Screenshot](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/460162bc-bab1-4a86-b34c-80bb64248d10)
 
 <h3> Raw elevation map
 ![image](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/01f64e18-f6a7-4fea-b109-e92ec0c4bcdd)
