@@ -1,16 +1,20 @@
-![elevation_map_interpolated](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/668d2256-1818-4d62-9b73-39dec03af016)<h1> Using the pcdWindows package </h1>
+<h1> Using the pcdWindows package </h1>
 
 <h3> Point Cloud after removal of points > certain height.
+  
 ![cloud](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/124882d1-3cef-4c69-bdaa-e8ba57909564)
 
 
 <h3> Raw elevation map
+  
 ![raw_elevation_map](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/420b4686-dfcf-43f5-96f5-74df0f05e027)
 
 <h3> Elevation map after interpolation
+  
 ![elevation_map_interpolated](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/de50edb6-bd04-4d38-9943-b8cd31735b9c)
 
 <h3> Traversability
+  
 ![traversability](https://github.com/Nisarg236/traversible_area_from_pt_clouds/assets/71684502/d91b4dbe-d000-45d5-b5a7-1d6671355974)
 
 
