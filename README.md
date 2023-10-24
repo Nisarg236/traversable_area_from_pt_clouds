@@ -1,4 +1,4 @@
-<h1> Using the pcdWindows package </h1>
+<h1> Using the package </h1>
 
 <h3> Point Cloud after removal of points > certain height.
   
