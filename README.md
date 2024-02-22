@@ -22,7 +22,7 @@
 ![image](https://github.com/Nisarg236/traversable_area_from_pt_clouds/assets/71684502/2f340a03-19e2-487a-8023-2458783511f4)
 
 
-<h3>This package is used to convert a point cloud into a 2D map, it runs in two steps, first it takes in the point cloud and then loads the poses. After this it divides it into small parts, removes points higher than the robot height and then applies difference of normals segmentation on each of the window and saves the obstacle points to a separate point cloud. Then it creates an empty gridmap and adds an obstacle layer and then projects the obstacle points on the 2d grid. Here majority of the obstacles are marked like trees, walls, poles, etc. But curbs are not detected. After this it converts the point cloud to elevation map -> fills empty spaces and then calculates the traversibility map where each cell is assigned value by how much slope it makes to its neighboring cells, in this the curbs are visible. 
+<h3>This package is used to convert a point cloud into a 2D map, it runs in two steps, first it takes in the point cloud and then loads the poses. After this it iterates over the poses, removes points higher than the robot height and converts the point cloud to elevation map -> fills empty spaces and then calculates the traversibility map where each cell is assigned value by how much slope it makes to its neighboring cells. 
 
 To run the code, edit the path to the input point cloud and also the poses, build it and then
 ```
