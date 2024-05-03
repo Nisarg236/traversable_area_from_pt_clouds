@@ -29,6 +29,6 @@ To run the code, edit the path to the input point cloud and also the poses, buil
 rosrun pcdWindows pcdWindows
 ```
 
-It will take time some time to run, close other programs to save RAM. After it is done, the 2D map created by detecting obstacles from DoN can viewed under the topic /obstacles. Save it using:
+It will take time some time to run, close other programs to save RAM. After it is done, the 2D map created. Save it using:
 ```
 rosrun map_server map_saver map:=/obstacles
