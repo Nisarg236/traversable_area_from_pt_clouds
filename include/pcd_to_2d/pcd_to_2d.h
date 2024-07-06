@@ -32,6 +32,7 @@
 #include <cmath>
 #include <iostream>
 
+//optimised structure to save memory when working with large clouds
 struct PointXYZIRPYT {
     PCL_ADD_POINT4D
     PCL_ADD_INTENSITY; // preferred way of adding a XYZ+padding
